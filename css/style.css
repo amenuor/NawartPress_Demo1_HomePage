@@ -1,13 +1,34 @@
+@font-face {
+  font-family: 'BureauGrotesque';
+  src: url('text/BureauGrotesque.eot'); /* IE9 Compat Modes */
+  src: url('text/BureauGrotesque.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('text/BureauGrotesque.woff2') format('woff2'), /* Super Modern Browsers */
+       url('text/BureauGrotesque.woff') format('woff'), /* Pretty Modern Browsers */
+       url('text/BureauGrotesque.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('text/BureauGrotesque.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Rambla';
+  src: url('text/Rambla.eot'); /* IE9 Compat Modes */
+  src: url('text/Rambla.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('text/Rambla.woff2') format('woff2'), /* Super Modern Browsers */
+       url('text/Rambla.woff') format('woff'), /* Pretty Modern Browsers */
+       url('text/Rambla.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('text/Rambla.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
 body {
-	font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+    font-family: 'Rambla' !important;
 	font-weight: 200;
 	font-size: 20px;
 	color: white;
 }
 
-h1
+h1, h2, h3, h4, h5, h6
 {
 	color: #ff4444;
+    font-family: 'BureauGrotesque' !important;
 }
 
 .parallax-background {
@@ -117,6 +138,11 @@ p
 	font-size: 16px;
 }
 
+.cd-timeline-content p
+{
+	color: #000;
+}
+
 .content
 {
 	color: white;
@@ -219,11 +245,9 @@ header h1 {
 }
 .cd-timeline-img img {
   display: block;
-  width: 24px;
-  height: 24px;
   position: relative;
-  left: 50%;
-  top: 50%;
+  left: 10%;
+  top: 20%;
   margin-left: -12px;
   margin-top: -12px;
 }
@@ -499,4 +523,39 @@ header h1 {
     -o-transform: translateX(0);
     transform: translateX(0);
   }
+}
+
+#train
+{
+	width: 64px;
+	position: absolute;
+	z-index: 100;
+	left: -45px;
+}
+
+.top-bar
+{
+	height: 100px !important;
+}
+
+.top-bar img
+{
+	width: 100px;
+}
+
+.top-bar-section li.active a, .top-bar-section li a
+{
+	padding: 1vh !important;
+	
+}
+
+.over
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: #000;
+	opacity:0.7;
+	top: 0;
+	left: 0;
 }
