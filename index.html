@@ -7,6 +7,10 @@
 	<link rel="stylesheet" href="css/foundation.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<script src="js/vendor/modernizr.js"></script>
+	<script src="js/vendor/jquery.js"></script>
+	<script src="js/jquery.parallax-scroll.js"></script>
+	<script src="js/timeline.js"></script>
+	<script src="js/foundation.min.js"></script>
 </head>
 <body>	
 	<div class="parallax-background slide">
@@ -48,7 +52,7 @@
 		</video>
 	</div>
 	
-	<div class="contentTitle row">
+	<div class="contentTitle">
 		<div class="contain-to-grid sticky">
 		  <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
 
@@ -70,145 +74,224 @@
 		
 		<div class="tabs-content">
 		  <div class="content active" id="panelOverview">
-		  		<div class="small-12 columns">
-		  		<h1> Overview </h1>
-		  	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nulla nibh, vulputate eget tellus sed, laoreet placerat tortor. Nunc non dolor id dolor commodo egestas quis et turpis. Cras vehicula ac nulla quis scelerisque. Nam luctus dolor metus, cursus dignissim neque malesuada nec. In ex quam, eleifend nec aliquam et, posuere et diam. Nulla aliquet enim eget turpis efficitur, a varius dolor molestie. Ut eget ipsum ut nisi vestibulum varius a sed velit. Quisque nisl enim, aliquet blandit aliquet et, interdum non leo. Duis vel faucibus justo, at feugiat neque. Vivamus auctor nec lacus interdum hendrerit.
+		    <div class="row">
+	  		  <div class="small-12 columns">
+	  		  		<h1> Overview </h1>
+					
+	  		  	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nulla nibh, vulputate eget tellus sed, laoreet placerat tortor. Nunc non dolor id dolor commodo egestas quis et turpis. Cras vehicula ac nulla quis scelerisque. Nam luctus dolor metus, cursus dignissim neque malesuada nec. In ex quam, eleifend nec aliquam et, posuere et diam. Nulla aliquet enim eget turpis efficitur, a varius dolor molestie. Ut eget ipsum ut nisi vestibulum varius a sed velit. Quisque nisl enim, aliquet blandit aliquet et, interdum non leo. Duis vel faucibus justo, at feugiat neque. Vivamus auctor nec lacus interdum hendrerit.
 
-		  	Curabitur sed gravida metus, non feugiat arcu. Morbi sed arcu lacus. Nullam sollicitudin nibh vitae pellentesque porta. Integer tempor eleifend sem. Donec nibh leo, placerat sed ante id, vulputate porta mauris. Donec sit amet condimentum neque. Nam ac commodo diam. Ut in nibh ornare, ultrices ipsum nec, vulputate ligula. Maecenas vitae mollis orci. Sed luctus justo arcu, vel ornare massa venenatis non. Pellentesque lorem mi, pellentesque sit amet ipsum at, pulvinar tincidunt ligula. Nulla facilisi. Etiam tristique, velit vel tincidunt congue, eros nisi consequat est, non interdum orci est et nisl. Maecenas egestas interdum lectus, in egestas quam tempus ut.
+	  		  	Curabitur sed gravida metus, non feugiat arcu. Morbi sed arcu lacus. Nullam sollicitudin nibh vitae pellentesque porta. Integer tempor eleifend sem. Donec nibh leo, placerat sed ante id, vulputate porta mauris. Donec sit amet condimentum neque. Nam ac commodo diam. Ut in nibh ornare, ultrices ipsum nec, vulputate ligula. Maecenas vitae mollis orci. Sed luctus justo arcu, vel ornare massa venenatis non. Pellentesque lorem mi, pellentesque sit amet ipsum at, pulvinar tincidunt ligula. Nulla facilisi. Etiam tristique, velit vel tincidunt congue, eros nisi consequat est, non interdum orci est et nisl. Maecenas egestas interdum lectus, in egestas quam tempus ut.	
+			</p>
+					<article>
+						<img src="img/overview.jpg" alt="Paris" data-parallax='{"y": 230}'/>
+					</article>
+			<p>
+	  		  	Maecenas lobortis ultrices magna sit amet dignissim. Ut scelerisque at orci ut varius. Vestibulum at sagittis ante, gravida elementum ipsum. Phasellus tristique tincidunt ex, eget lobortis dui consectetur non. Praesent at odio posuere, euismod lectus vel, interdum nibh. In fringilla scelerisque ligula at luctus. Mauris laoreet sapien ac bibendum mollis. Nam ac dui vitae eros gravida malesuada at ut sem. Nullam iaculis turpis ac dolor malesuada, suscipit ornare metus dapibus. Proin fermentum urna mattis eleifend molestie. Sed faucibus ipsum vitae sem feugiat, in tempus eros bibendum. Ut purus quam, dictum id leo eget, pellentesque vulputate turpis. Donec tincidunt felis semper suscipit accumsan. Vestibulum nunc velit, ultricies vitae pharetra a, commodo in mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 
-		  	Maecenas lobortis ultrices magna sit amet dignissim. Ut scelerisque at orci ut varius. Vestibulum at sagittis ante, gravida elementum ipsum. Phasellus tristique tincidunt ex, eget lobortis dui consectetur non. Praesent at odio posuere, euismod lectus vel, interdum nibh. In fringilla scelerisque ligula at luctus. Mauris laoreet sapien ac bibendum mollis. Nam ac dui vitae eros gravida malesuada at ut sem. Nullam iaculis turpis ac dolor malesuada, suscipit ornare metus dapibus. Proin fermentum urna mattis eleifend molestie. Sed faucibus ipsum vitae sem feugiat, in tempus eros bibendum. Ut purus quam, dictum id leo eget, pellentesque vulputate turpis. Donec tincidunt felis semper suscipit accumsan. Vestibulum nunc velit, ultricies vitae pharetra a, commodo in mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+	  		  	Aliquam commodo lorem nec nulla luctus luctus. Mauris eleifend blandit metus, nec fringilla augue iaculis eget. Duis quis mi vitae dui consequat fermentum. Curabitur at ante nec sem mattis tempor eu sed felis. Integer eu turpis vitae est molestie feugiat eu eget nulla. Donec at libero quis est posuere lacinia id ut lectus. Praesent eu neque a mi venenatis tristique. Sed quis tellus augue.
+				
+				<iframe src="charts/bar.html" class="right"></iframe>
 
-		  	Aliquam commodo lorem nec nulla luctus luctus. Mauris eleifend blandit metus, nec fringilla augue iaculis eget. Duis quis mi vitae dui consequat fermentum. Curabitur at ante nec sem mattis tempor eu sed felis. Integer eu turpis vitae est molestie feugiat eu eget nulla. Donec at libero quis est posuere lacinia id ut lectus. Praesent eu neque a mi venenatis tristique. Sed quis tellus augue.
+	  		  	Nam mollis sem ac lacus pharetra ultrices. Nam malesuada volutpat congue. Mauris commodo, elit in interdum lobortis, massa lorem egestas purus, ut vehicula dolor est non mi. Donec cursus viverra mi nec posuere. Nullam malesuada elit sed imperdiet iaculis. Vestibulum ut risus a libero gravida gravida aliquam non turpis. Ut aliquam ex sed malesuada eleifend. Nulla nec maximus metus. Sed faucibus sodales lectus eget ultrices. Sed non diam pharetra, dapibus leo sed, tempus odio. Fusce facilisis ullamcorper sapien dignissim posuere. In quis hendrerit sem, ac dictum est. Duis bibendum, ex sit amet suscipit fringilla, nisi arcu suscipit eros, non semper ante augue sit amet enim. Etiam vel blandit turpis. Nulla erat est, varius et mollis elementum, faucibus quis lacus. Pellentesque sed urna commodo, dictum metus a, pulvinar nisi.</p>
 
-		  	Nam mollis sem ac lacus pharetra ultrices. Nam malesuada volutpat congue. Mauris commodo, elit in interdum lobortis, massa lorem egestas purus, ut vehicula dolor est non mi. Donec cursus viverra mi nec posuere. Nullam malesuada elit sed imperdiet iaculis. Vestibulum ut risus a libero gravida gravida aliquam non turpis. Ut aliquam ex sed malesuada eleifend. Nulla nec maximus metus. Sed faucibus sodales lectus eget ultrices. Sed non diam pharetra, dapibus leo sed, tempus odio. Fusce facilisis ullamcorper sapien dignissim posuere. In quis hendrerit sem, ac dictum est. Duis bibendum, ex sit amet suscipit fringilla, nisi arcu suscipit eros, non semper ante augue sit amet enim. Etiam vel blandit turpis. Nulla erat est, varius et mollis elementum, faucibus quis lacus. Pellentesque sed urna commodo, dictum metus a, pulvinar nisi.</p>
+	  		  	<section id="cd-timeline" class="cd-container">
+	  		  		<div class="cd-timeline-block">
+	  	  				<img id="train" src="img/train.png" alt="Picture">
+	  		  			<div class="cd-timeline-img cd-picture">
+	  		  			</div> <!-- cd-timeline-img -->
 
-		  	<section id="cd-timeline" class="cd-container">
-		  		<div class="cd-timeline-block">
-	  				<img id="train" src="img/train.png" alt="Picture">
-		  			<div class="cd-timeline-img cd-picture">
-		  			</div> <!-- cd-timeline-img -->
+	  		  			<div class="cd-timeline-content">
+	  		  				<h2>Chapter 1</h2>
+	  		  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+	  		  				<span class="cd-date">Jan 14</span>
+	  		  			</div> <!-- cd-timeline-content -->
+	  		  		</div> <!-- cd-timeline-block -->
 
-		  			<div class="cd-timeline-content">
-		  				<h2>Chapter 1</h2>
-		  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-		  				<span class="cd-date">Jan 14</span>
-		  			</div> <!-- cd-timeline-content -->
-		  		</div> <!-- cd-timeline-block -->
+	  		  		<div class="cd-timeline-block">
+	  		  			<div class="cd-timeline-img cd-picture">
+	  		  			</div> <!-- cd-timeline-img -->
 
-		  		<div class="cd-timeline-block">
-		  			<div class="cd-timeline-img cd-picture">
-		  			</div> <!-- cd-timeline-img -->
+	  		  			<div class="cd-timeline-content">
+	  		  				<h2>Chapter 2</h2>
+	  		  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+	  		  				<span class="cd-date">Jan 18</span>
+	  		  			</div> <!-- cd-timeline-content -->
+	  		  		</div> <!-- cd-timeline-block -->
 
-		  			<div class="cd-timeline-content">
-		  				<h2>Chapter 2</h2>
-		  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
-		  				<span class="cd-date">Jan 18</span>
-		  			</div> <!-- cd-timeline-content -->
-		  		</div> <!-- cd-timeline-block -->
+	  		  		<div class="cd-timeline-block">
+	  		  			<div class="cd-timeline-img cd-picture">
+	  		  			</div> <!-- cd-timeline-img -->
 
-		  		<div class="cd-timeline-block">
-		  			<div class="cd-timeline-img cd-picture">
-		  			</div> <!-- cd-timeline-img -->
+	  		  			<div class="cd-timeline-content">
+	  		  				<h2>Chapter 3</h2>
+	  		  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+	  		  				<span class="cd-date">Jan 24</span>
+	  		  			</div> <!-- cd-timeline-content -->
+	  		  		</div> <!-- cd-timeline-block -->
 
-		  			<div class="cd-timeline-content">
-		  				<h2>Chapter 3</h2>
-		  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
-		  				<span class="cd-date">Jan 24</span>
-		  			</div> <!-- cd-timeline-content -->
-		  		</div> <!-- cd-timeline-block -->
+	  		  		<div class="cd-timeline-block">
+	  		  			<div class="cd-timeline-img cd-picture">
+	  		  			</div> <!-- cd-timeline-img -->
 
-		  		<div class="cd-timeline-block">
-		  			<div class="cd-timeline-img cd-picture">
-		  			</div> <!-- cd-timeline-img -->
+	  		  			<div class="cd-timeline-content">
+	  		  				<h2>Chapter 4</h2>
+	  		  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+	  		  				<span class="cd-date">Feb 14</span>
+	  		  			</div> <!-- cd-timeline-content -->
+	  		  		</div> <!-- cd-timeline-block -->
 
-		  			<div class="cd-timeline-content">
-		  				<h2>Chapter 4</h2>
-		  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-		  				<span class="cd-date">Feb 14</span>
-		  			</div> <!-- cd-timeline-content -->
-		  		</div> <!-- cd-timeline-block -->
+	  		  		<div class="cd-timeline-block">
+	  		  			<div class="cd-timeline-img cd-picture">
+	  		  			</div> <!-- cd-timeline-img -->
 
-		  		<div class="cd-timeline-block">
-		  			<div class="cd-timeline-img cd-picture">
-		  			</div> <!-- cd-timeline-img -->
+	  		  			<div class="cd-timeline-content">
+	  		  				<h2>Chapter 5</h2>
+	  		  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+	  		  				<span class="cd-date">Feb 18</span>
+	  		  			</div> <!-- cd-timeline-content -->
+	  		  		</div> <!-- cd-timeline-block -->
 
-		  			<div class="cd-timeline-content">
-		  				<h2>Chapter 5</h2>
-		  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
-		  				<span class="cd-date">Feb 18</span>
-		  			</div> <!-- cd-timeline-content -->
-		  		</div> <!-- cd-timeline-block -->
+	  		  		<div class="cd-timeline-block">
+	  		  			<div class="cd-timeline-img cd-picture">
+	  		  			</div> <!-- cd-timeline-img -->
 
-		  		<div class="cd-timeline-block">
-		  			<div class="cd-timeline-img cd-picture">
-		  			</div> <!-- cd-timeline-img -->
-
-		  			<div class="cd-timeline-content">
-		  				<h2>Chapter 6</h2>
-		  				<p>This is the content of the last section</p>
-		  				<span class="cd-date">Feb 26</span>
-		  			</div> <!-- cd-timeline-content -->
-		  		</div> <!-- cd-timeline-block -->
+	  		  			<div class="cd-timeline-content">
+	  		  				<h2>Chapter 6</h2>
+	  		  				<p>This is the content of the last section</p>
+	  		  				<span class="cd-date">Feb 26</span>
+	  		  			</div> <!-- cd-timeline-content -->
+	  		  		</div> <!-- cd-timeline-block -->
 
 
-		  		<div class="cd-timeline-block">
-		  			<div class="cd-timeline-img cd-picture">
-		  			</div> <!-- cd-timeline-img -->
+	  		  		<div class="cd-timeline-block">
+	  		  			<div class="cd-timeline-img cd-picture">
+	  		  			</div> <!-- cd-timeline-img -->
 
-		  			<div class="cd-timeline-content">
-		  				<h2>Chapter 7</h2>
-		  				<p>This is the content of the last section</p>
-		  				<span class="cd-date">Feb 26</span>
-		  			</div> <!-- cd-timeline-content -->
-		  		</div> <!-- cd-timeline-block -->
+	  		  			<div class="cd-timeline-content">
+	  		  				<h2>Chapter 7</h2>
+	  		  				<p>This is the content of the last section</p>
+	  		  				<span class="cd-date">Feb 26</span>
+	  		  			</div> <!-- cd-timeline-content -->
+	  		  		</div> <!-- cd-timeline-block -->
 
-		  	</section> <!-- cd-timeline -->
+	  		  	</section> <!-- cd-timeline -->
 
-		  		</div>
+			  </div>			 
+		    </div>
 		  </div>
 		  <div class="content" id="panelChapter1">
+		    <div class="row">
 	  		<div class="small-12 columns">
-	  			<h1> Chapter 1 </h1>
+	  		  		<h1> Chapter 1 </h1>
+	  		  		<h2> Sarajevo </h2>
+					
+	  		  	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nulla nibh, vulputate eget tellus sed, laoreet placerat tortor. Nunc non dolor id dolor commodo egestas quis et turpis. Cras vehicula ac nulla quis scelerisque. Nam luctus dolor metus, cursus dignissim neque malesuada nec. In ex quam, eleifend nec aliquam et, posuere et diam. Nulla aliquet enim eget turpis efficitur, a varius dolor molestie. Ut eget ipsum ut nisi vestibulum varius a sed velit. Quisque nisl enim, aliquet blandit aliquet et, interdum non leo. Duis vel faucibus justo, at feugiat neque. Vivamus auctor nec lacus interdum hendrerit.
+
+	  		  	Curabitur sed gravida metus, non feugiat arcu. Morbi sed arcu lacus. Nullam sollicitudin nibh vitae pellentesque porta. Integer tempor eleifend sem. Donec nibh leo, placerat sed ante id, vulputate porta mauris. Donec sit amet condimentum neque. Nam ac commodo diam. Ut in nibh ornare, ultrices ipsum nec, vulputate ligula. Maecenas vitae mollis orci. Sed luctus justo arcu, vel ornare massa venenatis non. Pellentesque lorem mi, pellentesque sit amet ipsum at, pulvinar tincidunt ligula. Nulla facilisi. Etiam tristique, velit vel tincidunt congue, eros nisi consequat est, non interdum orci est et nisl. Maecenas egestas interdum lectus, in egestas quam tempus ut.
+			</p>
+				<article>
+					<img src="img/sarajevo1.jpg" alt="Paris" data-parallax='{"y": 230}'/>
+				</article>
+				
+			<p>
+	  		  	Maecenas lobortis ultrices magna sit amet dignissim. Ut scelerisque at orci ut varius. Vestibulum at sagittis ante, gravida elementum ipsum. Phasellus tristique tincidunt ex, eget lobortis dui consectetur non. Praesent at odio posuere, euismod lectus vel, interdum nibh. In fringilla scelerisque ligula at luctus. Mauris laoreet sapien ac bibendum mollis. Nam ac dui vitae eros gravida malesuada at ut sem. Nullam iaculis turpis ac dolor malesuada, suscipit ornare metus dapibus. Proin fermentum urna mattis eleifend molestie. Sed faucibus ipsum vitae sem feugiat, in tempus eros bibendum. Ut purus quam, dictum id leo eget, pellentesque vulputate turpis. Donec tincidunt felis semper suscipit accumsan. Vestibulum nunc velit, ultricies vitae pharetra a, commodo in mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+	  		  	Aliquam commodo lorem nec nulla luctus luctus. Mauris eleifend blandit metus, nec fringilla augue iaculis eget. Duis quis mi vitae dui consequat fermentum. Curabitur at ante nec sem mattis tempor eu sed felis. Integer eu turpis vitae est molestie feugiat eu eget nulla. Donec at libero quis est posuere lacinia id ut lectus. Praesent eu neque a mi venenatis tristique. Sed quis tellus augue.
+				<div class="text-center">
+					<iframe src="charts/doughnut.html"></iframe>
+				</div>
+
+	  		  	Nam mollis sem ac lacus pharetra ultrices. Nam malesuada volutpat congue. Mauris commodo, elit in interdum lobortis, massa lorem egestas purus, ut vehicula dolor est non mi. Donec cursus viverra mi nec posuere. Nullam malesuada elit sed imperdiet iaculis. Vestibulum ut risus a libero gravida gravida aliquam non turpis. Ut aliquam ex sed malesuada eleifend. Nulla nec maximus metus. Sed faucibus sodales lectus eget ultrices. Sed non diam pharetra, dapibus leo sed, tempus odio. Fusce facilisis ullamcorper sapien dignissim posuere. In quis hendrerit sem, ac dictum est. Duis bibendum, ex sit amet suscipit fringilla, nisi arcu suscipit eros, non semper ante augue sit amet enim. Etiam vel blandit turpis. Nulla erat est, varius et mollis elementum, faucibus quis lacus. Pellentesque sed urna commodo, dictum metus a, pulvinar nisi.</p>
+				
+				
+				<div class="slide">
+					<blockquote>
+					Famous quote
+					<cite>Famous person</cite>
+					</blockquote>
+				</div>
+				
+				
 			</div>
+		  </div>
 		  </div>
 		  <div class="content" id="panelChapter2">
+		    <div class="row">
 	  		<div class="small-12 columns">
-	  			<h1> Chapter 2 </h1>
+	  		  		<h1> Chapter 2 </h1>
+					
+	  		  	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nulla nibh, vulputate eget tellus sed, laoreet placerat tortor. Nunc non dolor id dolor commodo egestas quis et turpis. Cras vehicula ac nulla quis scelerisque. Nam luctus dolor metus, cursus dignissim neque malesuada nec. In ex quam, eleifend nec aliquam et, posuere et diam. Nulla aliquet enim eget turpis efficitur, a varius dolor molestie. Ut eget ipsum ut nisi vestibulum varius a sed velit. Quisque nisl enim, aliquet blandit aliquet et, interdum non leo. Duis vel faucibus justo, at feugiat neque. Vivamus auctor nec lacus interdum hendrerit.
+
+	  		  	Curabitur sed gravida metus, non feugiat arcu. Morbi sed arcu lacus. Nullam sollicitudin nibh vitae pellentesque porta. Integer tempor eleifend sem. Donec nibh leo, placerat sed ante id, vulputate porta mauris. Donec sit amet condimentum neque. Nam ac commodo diam. Ut in nibh ornare, ultrices ipsum nec, vulputate ligula. Maecenas vitae mollis orci. Sed luctus justo arcu, vel ornare massa venenatis non. Pellentesque lorem mi, pellentesque sit amet ipsum at, pulvinar tincidunt ligula. Nulla facilisi. Etiam tristique, velit vel tincidunt congue, eros nisi consequat est, non interdum orci est et nisl. Maecenas egestas interdum lectus, in egestas quam tempus ut.	
+			</p>
+					<article>
+						<img src="img/athens.jpg" alt="Paris" data-parallax='{"y": 230}'/>
+					</article>
+			<p>
+	  		  	Maecenas lobortis ultrices magna sit amet dignissim. Ut scelerisque at orci ut varius. Vestibulum at sagittis ante, gravida elementum ipsum. Phasellus tristique tincidunt ex, eget lobortis dui consectetur non. Praesent at odio posuere, euismod lectus vel, interdum nibh. In fringilla scelerisque ligula at luctus. Mauris laoreet sapien ac bibendum mollis. Nam ac dui vitae eros gravida malesuada at ut sem. Nullam iaculis turpis ac dolor malesuada, suscipit ornare metus dapibus. Proin fermentum urna mattis eleifend molestie. Sed faucibus ipsum vitae sem feugiat, in tempus eros bibendum. Ut purus quam, dictum id leo eget, pellentesque vulputate turpis. Donec tincidunt felis semper suscipit accumsan. Vestibulum nunc velit, ultricies vitae pharetra a, commodo in mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+	  		  	Aliquam commodo lorem nec nulla luctus luctus. Mauris eleifend blandit metus, nec fringilla augue iaculis eget. Duis quis mi vitae dui consequat fermentum. Curabitur at ante nec sem mattis tempor eu sed felis. Integer eu turpis vitae est molestie feugiat eu eget nulla. Donec at libero quis est posuere lacinia id ut lectus. Praesent eu neque a mi venenatis tristique. Sed quis tellus augue.
+
+				<iframe src="charts/line-customTooltips.html" class="left"></iframe>
+
+	  		  	Nam mollis sem ac lacus pharetra ultrices. Nam malesuada volutpat congue. Mauris commodo, elit in interdum lobortis, massa lorem egestas purus, ut vehicula dolor est non mi. Donec cursus viverra mi nec posuere. Nullam malesuada elit sed imperdiet iaculis. Vestibulum ut risus a libero gravida gravida aliquam non turpis. Ut aliquam ex sed malesuada eleifend. Nulla nec maximus metus. Sed faucibus sodales lectus eget ultrices. Sed non diam pharetra, dapibus leo sed, tempus odio. Fusce facilisis ullamcorper sapien dignissim posuere. In quis hendrerit sem, ac dictum est. Duis bibendum, ex sit amet suscipit fringilla, nisi arcu suscipit eros, non semper ante augue sit amet enim. Etiam vel blandit turpis. Nulla erat est, varius et mollis elementum, faucibus quis lacus. Pellentesque sed urna commodo, dictum metus a, pulvinar nisi.</p>
 			</div>
+		  </div>
 		  </div>
 		  <div class="content" id="panelChapter3">
+		    <div class="row">
 	  		<div class="small-12 columns">
-	  			<h1> Chapter 3 </h1>
+	  		  		<h1> Chapter 3 </h1>
+					
+	  		  	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nulla nibh, vulputate eget tellus sed, laoreet placerat tortor. Nunc non dolor id dolor commodo egestas quis et turpis. Cras vehicula ac nulla quis scelerisque. Nam luctus dolor metus, cursus dignissim neque malesuada nec. In ex quam, eleifend nec aliquam et, posuere et diam. Nulla aliquet enim eget turpis efficitur, a varius dolor molestie. Ut eget ipsum ut nisi vestibulum varius a sed velit. Quisque nisl enim, aliquet blandit aliquet et, interdum non leo. Duis vel faucibus justo, at feugiat neque. Vivamus auctor nec lacus interdum hendrerit.
+
+	  		  	Curabitur sed gravida metus, non feugiat arcu. Morbi sed arcu lacus. Nullam sollicitudin nibh vitae pellentesque porta. Integer tempor eleifend sem. Donec nibh leo, placerat sed ante id, vulputate porta mauris. Donec sit amet condimentum neque. Nam ac commodo diam. Ut in nibh ornare, ultrices ipsum nec, vulputate ligula. Maecenas vitae mollis orci. Sed luctus justo arcu, vel ornare massa venenatis non. Pellentesque lorem mi, pellentesque sit amet ipsum at, pulvinar tincidunt ligula. Nulla facilisi. Etiam tristique, velit vel tincidunt congue, eros nisi consequat est, non interdum orci est et nisl. Maecenas egestas interdum lectus, in egestas quam tempus ut.	
+			</p>
+					<article>
+						<img src="img/istanbul.jpg" alt="Paris" data-parallax='{"y": 230}'/>
+					</article>
+			<p>
+	  		  	Maecenas lobortis ultrices magna sit amet dignissim. Ut scelerisque at orci ut varius. Vestibulum at sagittis ante, gravida elementum ipsum. Phasellus tristique tincidunt ex, eget lobortis dui consectetur non. Praesent at odio posuere, euismod lectus vel, interdum nibh. In fringilla scelerisque ligula at luctus. Mauris laoreet sapien ac bibendum mollis. Nam ac dui vitae eros gravida malesuada at ut sem. Nullam iaculis turpis ac dolor malesuada, suscipit ornare metus dapibus. Proin fermentum urna mattis eleifend molestie. Sed faucibus ipsum vitae sem feugiat, in tempus eros bibendum. Ut purus quam, dictum id leo eget, pellentesque vulputate turpis. Donec tincidunt felis semper suscipit accumsan. Vestibulum nunc velit, ultricies vitae pharetra a, commodo in mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+	  		  	Aliquam commodo lorem nec nulla luctus luctus. Mauris eleifend blandit metus, nec fringilla augue iaculis eget. Duis quis mi vitae dui consequat fermentum. Curabitur at ante nec sem mattis tempor eu sed felis. Integer eu turpis vitae est molestie feugiat eu eget nulla. Donec at libero quis est posuere lacinia id ut lectus. Praesent eu neque a mi venenatis tristique. Sed quis tellus augue.
+
+	  		  	Nam mollis sem ac lacus pharetra ultrices. Nam malesuada volutpat congue. Mauris commodo, elit in interdum lobortis, massa lorem egestas purus, ut vehicula dolor est non mi. Donec cursus viverra mi nec posuere. Nullam malesuada elit sed imperdiet iaculis. Vestibulum ut risus a libero gravida gravida aliquam non turpis. Ut aliquam ex sed malesuada eleifend. Nulla nec maximus metus. Sed faucibus sodales lectus eget ultrices. Sed non diam pharetra, dapibus leo sed, tempus odio. Fusce facilisis ullamcorper sapien dignissim posuere. In quis hendrerit sem, ac dictum est. Duis bibendum, ex sit amet suscipit fringilla, nisi arcu suscipit eros, non semper ante augue sit amet enim. Etiam vel blandit turpis. Nulla erat est, varius et mollis elementum, faucibus quis lacus. Pellentesque sed urna commodo, dictum metus a, pulvinar nisi.</p>
 			</div>
 		  </div>
+		  </div>
 		  <div class="content" id="panelChapter4">
+		    <div class="row">
 	  		<div class="small-12 columns">
 	  			<h1> Chapter 4 </h1>
 			</div>
 		  </div>
+		  </div>
 		  <div class="content" id="panelChapter5">
+		    <div class="row">
 	  		<div class="small-12 columns">
 	  			<h1> Chapter 5 </h1>
 			</div>
 		  </div>
+		  </div>
 		  <div class="content" id="panelChapter6">
+		    <div class="row">
 	  		<div class="small-12 columns">
 	  			<h1> Chapter 6 </h1>
 			</div>
 		  </div>
+		  </div>
 		  <div class="content" id="panelChapter7">
+		    <div class="row">
 	  		<div class="small-12 columns">
 	  			<h1> Chapter 7 </h1>
 			</div>
+		  </div>
 		  </div>
 		</div>
 		
 
 	</div>
 			
-	<script src="js/vendor/jquery.js"></script>
-	<script src="js/timeline.js"></script>
-	<script src="js/foundation.min.js"></script>
 	<script>
 		$(document).foundation();
 	</script>

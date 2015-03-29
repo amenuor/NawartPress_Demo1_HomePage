@@ -1,14 +1,14 @@
 $(document).ready(function($){
 	var $timeline_block = $('.cd-timeline-block');
-	$('#train').hide();
 	
 	$('.over').each(function(index){
 		var elem = $(this);
 		elem.mouseenter(function(){$(this).fadeOut()});
 		elem.parent().mouseleave(function(){elem.fadeIn()});
 	});
-	
+		
 	//hide timeline blocks which are outside the viewport
+	$('#train').hide();
 	$timeline_block.each(function(){
 		if($(this).offset().top > $(window).scrollTop()+$(window).height()*0.75) {
 			$(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
