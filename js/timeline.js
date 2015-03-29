@@ -4,8 +4,8 @@ $(document).ready(function($){
 	
 	$('.over').each(function(index){
 		var elem = $(this);
-		elem.hover(function(){$(this).fadeOut()});
-		elem.parent().find('img').mouseout(function(){elem.fadeIn()});
+		elem.mouseenter(function(){$(this).fadeOut()});
+		elem.parent().mouseleave(function(){elem.fadeIn()});
 	});
 	
 	//hide timeline blocks which are outside the viewport
